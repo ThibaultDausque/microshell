@@ -5,7 +5,8 @@ NAME = ./microshell
 
 SRCS = main.c \
 	parse.c \
-	utils.c 
+	utils.c \
+	history.c
 
 OBJ_DIR = objs
 OBJ = $(SRCS:%.c=$(OBJ_DIR)/%.o)
